@@ -18,6 +18,4 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_FIREBASEHOSTED_TEST254 }}'
           channelId: live
           projectId: firebasehosted-test254
-after_success:
-    - firebase --deploy
 
